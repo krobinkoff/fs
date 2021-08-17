@@ -184,10 +184,12 @@ li > a:only-child:after { content: ''; }
 
 @media all and (max-width : 768px) {
 	h1 {
-	font-size: 40px;
+	font-size: 36px;
+	line-height: 45px;
 	}
 	p {
 	font-size: 14px;
+	line-height: 22px;
 }
 	#logo {
 		display: flex;
@@ -201,10 +203,12 @@ li > a:only-child:after { content: ''; }
 	height: 40px;
 }
 .margin {
-	margin: 40px;
+	margin: 38px;
+	
 }
 h2 {
 	font-size: 22px;
+	line-height: 25px;
 }
 	nav {
 		margin: 0;
