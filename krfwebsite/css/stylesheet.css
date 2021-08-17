@@ -268,10 +268,11 @@ h2 {
 	}
 	.bottomtexttext {
 	font-size: 10px;
-	line-height: 2px;
+	line-height: 14px;
 }
 	.bottomtext {
 	font-size: 13px;
+	line-height: 14px;
 	margin-left: 50px;
 	padding-top: 380px;
 	}
