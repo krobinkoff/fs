@@ -273,8 +273,8 @@ h2 {
 	.bottomtext {
 	font-size: 15px;
 	margin-left: 50px;
-	margin-right: 50px;
-	padding-top: 400px;
+	margin-right: 10px;
+	padding-top: 390px;
 	}
 }
 @media all and (max-width : 330px) {
