@@ -154,6 +154,28 @@ li > a:only-child:after { content: ''; }
 	background-color: #34376d;
 }
 /*Download Button*/
+/*Social Media Buttons*/
+.fab {
+	padding: 15px;
+	margin: 15px;
+	font-size: 40px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30%;
+	background: #34376d;
+	color: white;
+	transition: all .2s ease-in-out; 
+}
+.fab:hover {
+	opacity: 0.6;
+	transform: scale(1.1); 
+
+}
+.space {
+	padding: 0px 50px;
+}
+/*Social Media Buttons*/
 /*Bottom Text*/
 .bottomtext {
 	padding-top: 370px;
@@ -196,6 +218,17 @@ li > a:only-child:after { content: ''; }
 	img {
 	max-width: 100%;
 	height: 40px;
+}
+.fab {
+	padding: 10px;
+	margin: 10px;
+	font-size: 10px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30%;
+	background: #34376d;
+	color: white;
 }
 .margin {
 	margin: 38px;
