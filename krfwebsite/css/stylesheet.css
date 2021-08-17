@@ -201,7 +201,10 @@ li > a:only-child:after { content: ''; }
 	height: 40px;
 }
 .margin {
-	margin: 50px;
+	margin: 40px;
+}
+h2 {
+	font-size: 22px;
 }
 	nav {
 		margin: 0;
