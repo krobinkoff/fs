@@ -268,13 +268,13 @@ h2 {
 	}
 	.bottomtexttext {
 	font-size: 10px;
-	line-height: 14px;
+	line-height: 15px;
 }
 	.bottomtext {
 	font-size: 13px;
 	line-height: 14px;
 	margin-left: 50px;
-	padding-top: 370px;
+	padding-top: 375px;
 	}
 }
 @media all and (max-width : 330px) {
