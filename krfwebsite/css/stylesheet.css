@@ -200,6 +200,9 @@ li > a:only-child:after { content: ''; }
 	max-width: 100%;
 	height: 40px;
 }
+.margin {
+	margin: 50px;
+}
 	nav {
 		margin: 0;
 	}
