@@ -64,13 +64,90 @@
 			</center>
 		</div>	
 		<br>
+		&nbsp;
+		&nbsp;
 		<div>
+			<div class="warpper">
+				<input class="radio" id="one" name="group" type="radio" checked>
+				<input class="radio" id="two" name="group" type="radio">
+				<div class="tabs">
+					<label class="tab" id="one-tab" for="one">Buy Now Options</label>
+					<label class="tab" id="two-tab" for="two">Information</label>
+				</div>
+				<div class="panels">
+					<div class="panel" id="one-panel">
+						<center>
+							<div class="tab2">
+								<button class="tablinks" onclick="openCity(event, 'XT')" id="defaultOpen"><img src="images/xtlogo.png" class="tabimage" title="XT"></button>
+								<button class="tablinks" onclick="openCity(event, 'Uniswap')"><img src="images/uniswaplogo.png" class="tabimage" title="Uniswap"></button>
+								<button class="tablinks" onclick="openCity(event, 'Pancakeswap')"><img src="images/pancakeswaplogo.png" class="tabimage" title="Pancakeswap"></button>
+								<button class="tablinks" onclick="openCity(event, 'UniTrade')"><img src="images/unitradelogo.png" class="tabimage" title="UniTrade"></button>
+							</div>
+						</center>
+						<div id="XT" class="tabcontent">
+							<h1 class="white">XT</h1>
+							<div class="linebar"></div>
+							<p><a class="tablink" href="https://www.xt.com/trade/krz_usdt" target="_blank">Trade on XT.com</a></p>
+							<p><a class="tablink" href="https://www.xt.com/user/register" target="_blank">Create an Account</a></p>
+						</div>
+						<div id="Uniswap" class="tabcontent">
+							<h1 class="white">Buy on Uniswap</h1>
+							<div class="linebar"></div>
+							<p><a class="tablink" href="https://app.uniswap.org/#/swap?outputCurrency=0xf54b304e2e4b28c7e46619d1a340f9b2b72383d7" target="_blank">Uniswap</a></p>
+							<p>Etherscan: <a href="https://etherscan.io/token/0xf54b304e2e4b28c7e46619d1a340f9b2b72383d7" target="_blank"><img src="images/etherscanlogo.png" class="innertabimage" title="Etherscan"></a></p> 
+							<p>Dextools: <a href="https://www.dextools.io/app/uniswap/pair-explorer/0x718e7c6022255fc9b7c6a43d0c00c8dca193321d" target="_blank"><img src="images/dextoolslogo.png" class="innertabimage" title="Dextools"></a></p> 
+							<p>Locked Liquidity: <a href="https://app.unicrypt.network/amm/uni-v2/pair/0x718e7c6022255fc9b7c6a43d0c00c8dca193321d" target="_blank"><img src="images/unicryptlogo.png" class="innertabimage" title="Locked Liquidity"></a></p> 
+						</div>
+						<div id="Pancakeswap" class="tabcontent">
+							<h1 class="white">Buy on Pancakeswap</h1>
+							<div class="linebar"></div>
+							<p><a class="tablink" href="https://pancakeswap.finance/swap#/swap?outputCurrency=0xf54b304e2e4b28c7e46619d1a340f9b2b72383d7" target="_blank">Pancakeswap</a></p>
+							<p>Bscscan: <a href="https://bscscan.com/token/0xf54b304e2e4b28c7e46619d1a340f9b2b72383d7" target="_blank"><img src="images/bscscanlogo.png" class="innertabimage" title="Bscscan"></a></p> 
+							<p>Dextools: <a href="https://www.dextools.io/app/pancakeswap/pair-explorer/0xa60a154bf401da9fde04c4d1f7477e676d7a71b5" target="_blank"><img src="images/dextoolslogo.png" class="innertabimage" title="Dextools"></a></p> 
+							<p>Locked Liquidity: <a href="https://app.unicrypt.network/amm/pancake-v2/pair/0xa60a154bf401dA9fDe04c4D1f7477e676D7a71B5" target="_blank"><img src="images/unicryptlogo.png" class="innertabimage" title="Locked Liquidity"></a></p> 
+						</div>
+						<div id="UniTrade" class="tabcontent">
+							<h1 class="white">UniTrade</h1>
+							<div class="linebar"></div>
+							<p><a class="tablink" href="https://www.unitrade.app/bridge" target="_blank">ETH-BSC Bridge</a></p>
+						</div>						
+					</div>
+					<div class="panel" id="two-panel">
+						<div class="panel-title">Phase 1 Tokenomics</div>					
+							<p>1% Fee For Every Transactions</p>
+							<p>3% Fee For Every Sell On Decentralized Exchanges</p>
+							<p>[Uniswap and Pancakeswap]</p>
+						<div class="linebar"></div>
+						<br>
+						<div class="panel-title">From Those Fees:</div>	
+							<p>50% Burned</p>
+							<p>10% Sent to the Business Reward Wallet</p>
+							<p>30% Sent to the Integration Wallet</p>
+							<p>10% Sent to the Liquidity Wallet</p>
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+						<div class="container">
+							<a class="popup-trigger" data-target="#popup1">Reward Wallet</a>
+							<a class="popup-trigger" data-target="#popup2">Integration Wallet</a>
+						</div>
+						<div id="popup1" class="popup">
+							<div class="popup-text"><strong>Rewarding businesses for starting to accept Cryptocurrency!</strong></div>
+							<span class="popup-btn-close">&times;</span>
+						</div>
+						<div id="popup2" class="popup">
+							<div class="popup-text"><strong>Covering the cost of a business starting to accept Cryptocurrency!</strong></div>
+							<span class="popup-btn-close">&times;</span>
+						</div>					
+					</div>
+				</div>
+			</div>
 		</div>	
+		&nbsp;
+		&nbsp;
 		<br>
 		<div>
 			<h1 class="linebar">Connect With Us!</h1>
 			<center>
-				<div class="space">
+				<br>
 				<a href="https://t.me/kranztoken" target="_blank"><img src="images/telegramlogo.png" class="fab" title="Telegram"></a>
 				<a href="https://twitter.com/KranzToken" target="_blank"><img src="images/twitterlogo.png" class="fab" title="Twitter"></a>
 				<a href="https://www.reddit.com/r/Kranz/" target="_blank"><img src="images/redditlogo.png" class="fab" title="Reddit"></a>
@@ -79,7 +156,6 @@
 				<a href="https://www.minds.com/kranztoken/" target="_blank"><img src="images/mindslogo.png" class="fab" title="Minds"></a>
 				<a href="https://gab.com/Kranztoken" target="_blank"><img src="images/gablogo.png" class="fab" title="Gab"></a>
 				<a href="https://www.pinterest.com/KranzToken/" target="_blank"><img src="images/pintrestlogo.png" class="fab" title="Pinterest"></a>
-				</div>
 			</center>
 		</div>
 	</div>
@@ -90,6 +166,57 @@
 		</div>
 	</div>
 <script>
+function popupOpenClose(popup) {
+
+  /* Add div inside popup for layout if one doesn't exist */
+  if ($(".wrapper", popup).length == 0) {
+    $(popup).wrapInner("<div class='wrapper'></div>");
+  }
+
+  /* Open popup */
+  $(popup).show();
+
+  /* Close popup if user clicks on background */
+  $(popup).click(function(e) {
+    if (e.target == this) {
+      if ($(popup).is(':visible')) {
+        $(popup).hide();
+      }
+    }
+  });
+
+  /* Close popup and remove errors if user clicks on cancel or close buttons */
+  $(popup).find(".popup-btn-close").on("click", function() {
+    if ($(".formElementError").is(':visible')) {
+      $(".formElementError").remove();
+    }
+    $(popup).hide();
+  });
+}
+
+$(document).ready(function() {
+  $(".popup-trigger").on("click", function() {
+    var target = $(this).data('target');
+    popupOpenClose($(target));
+  });
+});
+
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
 </script>	
 </body>
 </html>
