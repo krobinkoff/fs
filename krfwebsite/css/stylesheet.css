@@ -535,6 +535,20 @@ h2 {
   font-style: italic;
   border: 5px solid #69a5d2;
 }
+.tabimage {
+	height: 40px;
+	background-color: transparent;
+	text-decoration: none;
+	box-shadow: 0px;
+	padding: 1px 15px;
+}
+.tab2 button { 
+	background-color: transparent;
+	text-decoration: none;
+	box-shadow: 0px;
+	padding: 10px;
+	border: none;	
+}
 }
 @media all and (max-width : 330px) {
 	nav ul li {
