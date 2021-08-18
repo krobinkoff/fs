@@ -559,7 +559,7 @@ h2 {
   padding: 30px 15px;
   /* Width of popup can be changed */
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   z-index: 5001;
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
