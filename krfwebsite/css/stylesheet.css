@@ -536,11 +536,11 @@ h2 {
   border: 5px solid #69a5d2;
 }
 .tabimage {
-	height: 50px;
+	height: 65px;
 	background-color: transparent;
 	text-decoration: none;
 	box-shadow: 0px;
-	padding: 1px 20px;
+	padding: 5px 25px;
 }
 .tab2 button { 
 	background-color: transparent;
@@ -585,17 +585,17 @@ h2 {
   border: 5px solid #69a5d2;
 }
 .tabimage {
-	height: 50px;
+	height: 65px;
 	background-color: transparent;
 	text-decoration: none;
 	box-shadow: 0px;
-	padding: 1px 20px;
+	padding: 5px 20px;
 }
 .tab2 button { 
 	background-color: transparent;
 	text-decoration: none;
 	box-shadow: 0px;
-	padding: 15px;
+	padding: 20px;
 	border: none;	
 }
 }
