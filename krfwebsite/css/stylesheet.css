@@ -488,12 +488,37 @@ button {
 /*Reward Wallet History Page*/
 /*Reward Wallet History Page*/
 /*Integration Wallet History Page*/
+.integration img {
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
 /*Integration Wallet History Page*/
 /*Marketing Wallet History Page*/
+.marketing img {
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*Marketing Wallet History Page*/
 /*Liquidity Wallet History Page*/
 /*Liquidity Wallet History Page*/
 /*Exchange Listing Wallet History Page*/
+.exchange img {
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*Exchange Listing Wallet History Page*/
 
 
